@@ -1,0 +1,14 @@
+{
+  "name": "foodModules",
+  "version": "1.0.0",
+  "description": "Searches for food upon request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sudarshan Guttula",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^4.1.0"
+  }
+}
