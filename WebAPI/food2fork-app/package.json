@@ -1,0 +1,16 @@
+{
+  "name": "food2fork-app",
+  "version": "1.0.0",
+  "description": "Searches for foods upon request",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sudarshan Guttula",
+  "license": "MIT",
+  "dependencies": {
+    "foodModules": "file:../foodModules",
+    "inquirer": "^6.2.2",
+    "yargs": "^13.2.2"
+  }
+}
