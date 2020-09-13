@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>CS4220 Final</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h4 class="display-4">
+                My Location
+            </h4>
+            <p class="lead">Enter your latitude and longitude to display your location on a Google Map</p>
+            <hr>
+            <form>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" name="lat" id="latloc" placeholder="Latitude" class="form-control">
+                    </div>
+                    <div class="col">
+                        <input type="text" name="lon" id="lonloc" placeholder="Longitude" class="form-control">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <button onclick="return showMyLocation()" class="btn btn-primary mt-4" >Show my location</button>
+                    </div>		
+                </div>
+            </form>
+        </div>
+    </div>
+	<h5 id="demo"></h5>
+   <script type="text/javascript" src="https://unpkg.com/vue"></script>
+    <script type="text/javascript" src="my-map.js"></script>
+	  <script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	  
+	  
+</body>
+</html>
